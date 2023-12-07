@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(35, 35, 35);
+}
+div{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+button {
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    background-color: rgb(70, 70, 70); /* Green */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration-color: #383838;
+    
+}
+
+button:hover {
+    background-color: #383838; /* Darker green on hover */
+}
+
+button:active {
+    background-color: #3e8e41; /* Even darker green on click */
+    box-shadow: 0 5px #505050;
+    transform: translateY(4px);
+}
+
+button:disabled {
+    background-color: #cccccc; /* Grey when button is disabled */
+    cursor: not-allowed;
+}
