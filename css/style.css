@@ -6,7 +6,7 @@ div{
     justify-content: center;
     align-items: center;
 }
-form{
+#form{
     display: flex; 
     justify-content: center;
     align-items: center;
